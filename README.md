@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 🛡️ Privacy Tracker
@@ -33,6 +32,29 @@ Public trackers log every announce request, revealing which torrents your peers 
 
 ---
 
+## Official Nodes
+
+Add these to your torrent client or magnet links for the best availability:
+
+| Node | Announce URL |
+|------|-------------|
+| 🟢 coeus | `udp://coeus.torrentonline.cc:42069/announce` |
+| 🟢 whybother | `udp://whybother.torrentonline.cc:42069/announce` |
+| 🟢 obey | `udp://obey.torrentonline.cc:42069/announce` |
+| 🟢 archive | `udp://archive.torrentonline.cc:42069/announce` |
+
+**Live node status:** [public-stats.trackerstatus.live](https://public-stats.trackerstatus.live/)
+
+**Example magnet snippet:**
+```
+&tr=udp://coeus.torrentonline.cc:42069/announce
+&tr=udp://whybother.torrentonline.cc:42069/announce
+&tr=udp://obey.torrentonline.cc:42069/announce
+&tr=udp://archive.torrentonline.cc:42069/announce
+```
+
+---
+
 ## Stack & architecture
 
 | Component | Tech |
@@ -63,11 +85,6 @@ python tracker_v15_final.py
 
 # 4. Run as systemd service (production)
 sudo systemctl enable --now tracker
-```
-
-**Announce URL to add to your magnet links:**
-```
-udp://yourdomain.com:PORT/announce
 ```
 
 **Web UI:**
@@ -214,4 +231,6 @@ The **"Active Torrents"** heading also cleaned up: static `(auto-refresh 30s)` t
 
 ---
 
+## License
 
+MIT

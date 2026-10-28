@@ -43,7 +43,7 @@ Add these to your torrent client or magnet links for the best availability:
 | 🟢 obey | `udp://obey.torrentonline.cc:42069/announce` |
 | 🟢 archive | `udp://archive.torrentonline.cc:42069/announce` |
 
-**Live node status:** [public-stats.trackerstatus.live](https://public-stats.trackerstatus.live/)
+**Live node status:** ([https://public-stats.trackerstatus.live/](http://coeus.torrentonline.cc:38080/))
 
 **Example magnet snippet:**
 ```

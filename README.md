@@ -81,7 +81,7 @@ mkdir -p /opt/tracker
 # Place your config.json in /opt/tracker/ with port, password, admin path
 
 # 3. Run directly (development)
-python tracker_v15_final.py
+python tracker_vXX.py
 
 # 4. Run as systemd service (production)
 sudo systemctl enable --now tracker
